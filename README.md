@@ -15,15 +15,15 @@ Functions for running and comparing many different clusterings of single-cell se
 
 	Risso D, Purvis L, Fletcher R, Das D, Ngai J, Dudoit S, Purdom E (2018) "clusterExperiment and RSEC: A Bioconductor package and framework for clustering of single-cell and other large gene expression datasets" PLoS Comput Biol. 2018 Sep 4;14(9):e1006378 [link](http://dx.plos.org/10.1371/journal.pcbi.1006378)
 	
-	There is a github repository ([epurdom/RSECPaper](https://github.com/epurdom/RSECPaper) for this paper that gives the code for reproducing the analysis in that manuscript.
+	There is a github repository ([epurdom/RSECPaper](https://github.com/epurdom/RSECPaper)) for this paper that gives the code for reproducing the analysis in that manuscript.
 
 * A [F1000 workflow](https://f1000research.com/articles/6-1158/v1) demonstrating the use of RSEC for clustering as part of trajectory estimation with the package `slingshot` and normalization with `zinbwave`
 
 	Perraudeau F, Risso D, Street K, Purdom E, and Dudoit S (2017) "Bioconductor workflow for single-cell RNA sequencing: Normalization, dimensionality reduction, clustering, and lineage inference" F1000Research 6:1158. 
 
-* A compiled version of the vignette (i.e. tutorial) of the github version of `clusterExperiment` (corresponding to the `master` branch) can be found (here)[http://bioconductor.org/packages/devel/bioc/vignettes/clusterExperiment/inst/doc/clusterExperimentTutorial.html] 
+* A compiled version of the vignette (i.e. tutorial) of the github version of `clusterExperiment` (corresponding to the `master` branch) can be found [here](http://bioconductor.org/packages/devel/bioc/vignettes/clusterExperiment/inst/doc/clusterExperimentTutorial.html) 
 
-* The compiled version of the vignette corresponding to the version of `clusterExperiment` available with the latest release of Bioconductor can be found (here)[http://bioconductor.org/packages/release/bioc/vignettes/clusterExperiment/inst/doc/clusterExperimentTutorial.html] 
+* The compiled version of the vignette corresponding to the version of `clusterExperiment` available with the latest release of Bioconductor can be found [here](http://bioconductor.org/packages/release/bioc/vignettes/clusterExperiment/inst/doc/clusterExperimentTutorial.html) 
 
 ## Installation instructions
 
@@ -37,7 +37,7 @@ if (!requireNamespace("BiocManager", quietly=TRUE))
 BiocManager::install("clusterExperiment")
 ```
 
-To install the most recent version of the package available on the development branch of bioconductor, follow the above instructions, after downloading the development version of bioconductor (see  [here](https://www.bioconductor.org/developers/how-to/useDevel/) for instructions).
+To install the most recent version of the package available on the development branch of bioconductor, follow the above instructions, after downloading the development version of bioconductor (see [here](https://www.bioconductor.org/developers/how-to/useDevel/) for instructions).
 
 If you are having problems installing/updating the package `gsl` from source because your gsl installation is not found, [this answer](https://stackoverflow.com/a/26616008) (and the comment following it) on stackoverflow may be of help.
 
